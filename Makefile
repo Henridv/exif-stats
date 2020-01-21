@@ -12,4 +12,4 @@ watch: build
 	docker run -it --rm \
 		-v $(PWD)/:/app \
 		exif-tool \
-		sh
+		bash

@@ -1,7 +1,7 @@
-FROM python:3-alpine
+FROM python:3-slim
 WORKDIR /app
 
-RUN pip install exifread
+RUN pip install exifread matplotlib
 
 COPY . .
 
